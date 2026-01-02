@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ballerine × Google Cloud | AI Risk & Compliance Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 3D背景容器 -->
+    <div class="bg-3d-container">
+        <canvas id="bg-canvas"></canvas>
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+    </div>
+
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">Ballerine</span>
+                <span class="logo-badge">on Google Cloud</span>
+            </div>
+            <div class="nav-links">
+                <a href="#overview">Overview</a>
+                <a href="#integration">Integration</a>
+                <a href="#architecture">Architecture</a>
+                <a href="#benefits">Benefits</a>
+                <a href="https://ballerine.cloud" class="btn-outline">Visit Website</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fab fa-google"></i>
+                <span>Google Cloud Build Partner</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="gradient-text">AI-Powered Risk & Compliance</span>
+                <br>Built on Google Cloud
+            </h1>
+            <p class="hero-subtitle">
+                Real-time merchant underwriting and monitoring platform that transforms fragmented data into actionable insights in under 3 minutes.
+            </p>
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <div class="stat-number">＜3 min</div>
+                    <div class="stat-label">Risk Analysis</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Google Cloud Native</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Continuous Monitoring</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="cube-3d">
+                <div class="cube-face front">
+                    <i class="fas fa-brain"></i>
+                    <span>AI Engine</span>
+                </div>
+                <div class="cube-face back">
+                    <i class="fas fa-database"></i>
+                    <span>Data Lake</span>
+                </div>
+                <div class="cube-face right">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Analytics</span>
+                </div>
+                <div class="cube-face left">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Security</span>
+                </div>
+                <div class="cube-face top">
+                    <i class="fab fa-google"></i>
+                    <span>GCP</span>
+                </div>
+                <div class="cube-face bottom">
+                    <i class="fas fa-bolt"></i>
+                    <span>Real-time</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 概览部分 -->
+    <section id="overview" class="section">
+        <div class="section-header">
+            <h2>Platform Overview</h2>
+            <p>Complete merchant lifecycle management powered by Google Cloud AI/ML</p>
+        </div>
+        <div class="overview-grid">
+            <div class="overview-card" data-tilt>
+                <div class="card-icon">
+                    <i class="fas fa-user-check"></i>
+                </div>
+                <h3>Pre-Onboarding</h3>
+                <p>Automated due diligence with real-time KYC/KYB checks using Google Vertex AI for document analysis and identity verification.</p>
+            </div>
+            <div class="overview-card" data-tilt>
+                <div class="card-icon">
+                    <i class="fas fa-chart-pie"></i>
+                </div>
+                <h3>Risk Assessment</h3>
+                <p>Machine learning models analyze digital footprints, sanctions lists, and transaction patterns to generate instant risk scores.</p>
+            </div>
+            <div class="overview-card" data-tilt>
+                <div class="card-icon">
+                    <i class="fas fa-eye"></i>
+                </div>
+                <h3>Continuous Monitoring</h3>
+                <p>Ongoing surveillance with anomaly detection powered by BigQuery real-time analytics and automated alerts.</p>
+            </div>
+            <div class="overview-card" data-tilt>
+                <div class="card-icon">
+                    <i class="fas fa-sliders-h"></i>
+                </div>
+                <h3>Configurable Workflows</h3>
+                <p>Customizable risk thresholds, scoring logic, and compliance workflows tailored to each institution's risk appetite.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Cloud 集成部分 -->
+    <section id="integration" class="section dark-section">
+        <div class="section-header">
+            <h2>Google Cloud Integration</h2>
+            <p>Native integration with Google Cloud services for maximum performance and scalability</p>
+        </div>
+        <div class="integration-container">
+            <div class="gcp-services">
+                <div class="service-card" data-tilt>
+                    <div class="service-logo">
+                        <i class="fab fa-google cloud-icon"></i>
+                        <span class="service-name">Vertex AI</span>
+                    </div>
+                    <h4>AI/ML Engine</h4>
+                    <ul>
+                        <li>Custom risk prediction models</li>
+                        <li>Anomaly detection algorithms</li>
+                        <li>Natural language processing for document analysis</li>
+                        <li>Continuous model training & deployment</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="service-logo">
+                        <i class="fab fa-google cloud-icon"></i>
+                        <span class="service-name">BigQuery</span>
+                    </div>
+                    <h4>Data Analytics</h4>
+                    <ul>
+                        <li>Unified data lake for all merchant information</li>
+                        <li>Real-time SQL queries on petabytes of data</li>
+                        <li>Integration with 150+ data sources</li>
+                        <li>Advanced analytics and reporting</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="service-logo">
+                        <i class="fab fa-google cloud-icon"></i>
+                        <span class="service-name">GKE</span>
+                    </div>
+                    <h4>Kubernetes Engine</h4>
+                    <ul>
+                        <li>Containerized microservices architecture</li>
+                        <li>Automatic scaling based on demand</li>
+                        <li>High availability across regions</li>
+                        <li>Simplified cluster management</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="service-logo">
+                        <i class="fab fa-google cloud-icon"></i>
+                        <span class="service-name">Cloud Security</span>
+                    </div>
+                    <h4>Security & Compliance</h4>
+                    <ul>
+                        <li>Cloud IAM for access control</li>
+                        <li>Data encryption at rest and in transit</li>
+                        <li>Security Command Center integration</li>
+                        <li>Compliance with financial regulations</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="integration-diagram">
+                <div class="diagram-container">
+                    <div class="data-source">Data Sources</div>
+                    <div class="flow-arrow">↓</div>
+                    <div class="gcp-layer">Google Cloud Processing</div>
+                    <div class="flow-arrow">↓</div>
+                    <div class="ballerine-layer">Ballerine Platform</div>
+                    <div class="flow-arrow">↓</div>
+                    <div class="output">Risk Insights</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 架构部分 -->
+    <section id="architecture" class="section">
+        <div class="section-header">
+            <h2>Technical Architecture</h2>
+            <p>Scalable, secure, and fully managed on Google Cloud</p>
+        </div>
+        <div class="architecture-content">
+            <div class="architecture-diagram">
+                <!-- 简化的架构图 -->
+                <div class="arch-layer client-layer">
+                    <h4>Client Applications</h4>
+                    <div class="arch-item">Web Dashboard</div>
+                    <div class="arch-item">API Integrations</div>
+                    <div class="arch-item">Mobile Apps</div>
+                </div>
+                <div class="arch-arrow">↓</div>
+                <div class="arch-layer ballerine-layer">
+                    <h4>Ballerine Platform</h4>
+                    <div class="arch-item">Risk Engine</div>
+                    <div class="arch-item">Workflow Manager</div>
+                    <div class="arch-item">Compliance Rules</div>
+                </div>
+                <div class="arch-arrow">↓</div>
+                <div class="arch-layer gcp-layer">
+                    <h4>Google Cloud Services</h4>
+                    <div class="arch-grid">
+                        <div class="gcp-service">Vertex AI</div>
+                        <div class="gcp-service">BigQuery</div>
+                        <div class="gcp-service">Cloud Run</div>
+                        <div class="gcp-service">Cloud Storage</div>
+                        <div class="gcp-service">Cloud SQL</div>
+                        <div class="gcp-service">Cloud IAM</div>
+                    </div>
+                </div>
+                <div class="arch-arrow">↓</div>
+                <div class="arch-layer data-layer">
+                    <h4>Data Sources</h4>
+                    <div class="data-grid">
+                        <div class="data-source">Digital Footprints</div>
+                        <div class="data-source">Sanctions Lists</div>
+                        <div class="data-source">Transaction Data</div>
+                        <div class="data-source">Public Registries</div>
+                        <div class="data-source">Web Searches</div>
+                        <div class="data-source">Documents</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 价值主张部分 -->
+    <section id="benefits" class="section dark-section">
+        <div class="section-header">
+            <h2>Business Benefits</h2>
+            <p>Why financial institutions choose Ballerine on Google Cloud</p>
+        </div>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <div class="benefit-number">01</div>
+                <h3>Speed to Decision</h3>
+                <p>Reduce merchant onboarding from days to minutes with real-time processing powered by Google Cloud's global infrastructure.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-number">02</div>
+                <h3>Scalability</h3>
+                <p>Handle from hundreds to millions of merchants without infrastructure changes, leveraging GKE auto-scaling and BigQuery's petabyte-scale processing.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-number">03</div>
+                <h3>Regulatory Confidence</h3>
+                <p>Built on Google Cloud's compliant infrastructure with configurable rules to meet global financial regulations including GDPR, PCI DSS, and SOC 2.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-number">04</div>
+                <h3>Cost Efficiency</h3>
+                <p>Pay-as-you-go pricing with Google Cloud eliminates upfront infrastructure costs while providing enterprise-grade capabilities.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA部分 -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2>Ready to Transform Your Compliance Operations?</h2>
+            <p>Join leading financial institutions using Ballerine on Google Cloud</p>
+            <div class="cta-buttons">
+                <a href="https://ballerine.cloud" class="btn-primary">
+                    <i class="fas fa-external-link-alt"></i> Visit Ballerine.cloud
+                </a>
+                <a href="mailto:noam@ballerine.cloud" class="btn-secondary">
+                    <i class="fas fa-envelope"></i> Contact Sales
+                </a>
+            </div>
+            <div class="company-info">
+                <p><i class="fas fa-map-marker-alt"></i> Israel</p>
+                <p><i class="fas fa-globe"></i> https://ballerine.cloud</p>
+                <p><i class="fas fa-envelope"></i> noam@ballerine.cloud</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-icon">⚡</span>
+                <span>Ballerine</span>
+            </div>
+            <p class="footer-tagline">AI-Powered Risk & Compliance Platform</p>
+            <p class="footer-partner">Google Cloud Build Partner</p>
+            <p class="footer-copyright">© 2024 Ballerine. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- 脚本 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.0/dist/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
